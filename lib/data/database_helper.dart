@@ -11,7 +11,7 @@ import '../models/nodo.dart';
 ///   1. Ejecuta la app con kDbVersion = 1 y agrega registros.
 ///   2. Cambia a kDbVersion = 2, guarda y presiona R (hot restart).
 ///   3. Se ejecuta onUpgrade: aparece la columna y los registros siguen ahí.
-const int kDbVersion = 2;
+const int kDbVersion = 1;
 
 class DatabaseHelper {
   DatabaseHelper._();
